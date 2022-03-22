@@ -1,0 +1,140 @@
+/* -- ELEMENTS -- */
+/* Police Sarabun pour tout le site */
+body{
+    font-family: "Sarabun", sans-serif;
+    color: rgb(0, 58, 93);
+    margin: 0px;
+}
+header>a>img{
+    margin: 10px;
+}
+header nav{
+    padding: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a{
+    font-family: "Caveat Brush", sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header nav a{
+    color: rgb(224, 224, 224);
+    font-size: 1.5em;
+}
+header nav a:hover{
+    color: rgb(255, 255, 255);
+}
+footer{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-top: 1px solid rgba(0, 58, 93, 0.4);
+}
+footer nav a{
+    color: rgb(0, 58, 93);
+    font-size: 1.1em;
+}
+footer nav a:hover{
+    color: rgb(0, 88, 143);
+}
+#content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.socials{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.socials a{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+/* Police Caveat brush pour titres et annotations */
+h1, h2, h3, h4, h5, h6, .title, u, .ctaUnite{
+    font-family: "Caveat Brush", sans-serif;
+}
+/* Police Raleway pour titres sérieux */
+h1.serious, h2.serious, h3.serious, h4.serious, h5.serious, h6.serious{
+    font-family: "Raleway", sans-serif;
+}
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+/* -- COULEURS -- */
+/* Bleu: Indigo dye = rgb(0, 58, 93) -> couleur principale */
+.bgMainColor{
+    background-color: rgb(0, 58, 93);
+}
+.textMainColor{
+    color: rgb(0, 58, 93);
+}
+/* Orange: Orange = rgb(255, 131, 0) -> seulement utilisable en touches de couleurs */
+.bgOrange, .bgLouveteauxJeannettes{
+    background-color: rgb(255, 131, 0);
+}
+.textOrange, .textLouveteauxJeannettes{
+    color: rgb(255, 131, 0);
+}
+/* Bleu clair: Star Command Blue = rgb(0, 119, 179) -> seulement utilisable en touches de couleurs */
+.bgBleu, .bgScoutsEtGuides, .bgMarins{
+    background-color: rgb(0, 119, 179);
+}
+.textBleu, .txtScoutsEtGuides, .txtMarins{
+    color: rgb(0, 119, 179);
+}
+/* Rouge: Rosso Corsa = rgb(205, 49, 17) -> seulement utilisable en touches de couleurs */
+.bgRouge, .bgPionniersEtCaravelles{
+    background-color: rgb(205, 49, 17);
+}
+.textRouge, .textPionniersEtCaravelles{
+    color: rgb(205, 49, 17);
+}
+/* Vert: Bottle Green = rgb(0, 114, 84) -> seulement utilisable en touches de couleurs */
+.bgVert, .bgCompagnons{
+    background-color: rgb(0, 114, 84);
+}
+.textVert, .txtCompagnons{
+    color: rgb(0, 114, 84);
+}
+/* Vert clair: Ocean Green = rgb(101, 188, 153) -> seulement utilisable en touches de couleurs */
+.bgVertClair, .bgFarfadets{
+    background-color: rgb(101, 188, 153);
+}
+.textVertClair, .textFarfadets{
+    color: rgb(101, 188, 153);
+}
+/* Mauve: Dark Blue Gray = rgb(110, 116, 170) -> seulement utilisable en touches de couleurs */
+.bgViolet, .bgVentDuLarge{
+    background-color: rgb(110, 116, 170);
+}
+.textViolet, .textVentDuLarge{
+    color: rgb(110, 116, 170);
+}
+/* Blanc */
+.textWhite{
+    color: rgb(255, 255, 255)
+}
+.textCenter{
+    text-align: center;
+}
+.margin10px{
+    margin: 10px;
+}
+.ctaUnite{
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.7em;
+    border: 0px solid green;
+    cursor: pointer;
+    margin: 5px;
+}
+.ctaUnite img{
+    margin-right: 5px;
+    max-width: 16px;
+}
